@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://koh23.github.io/post/</loc>
+    <lastmod>2020-08-26T23:51:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/post/flutter_app_server_archi/</loc>
+    <lastmod>2020-08-26T23:51:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/</loc>
+    <lastmod>2020-08-26T23:51:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/author/koh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koh23.github.io/tags/</loc>
+  </url>
+  
+</urlset>
