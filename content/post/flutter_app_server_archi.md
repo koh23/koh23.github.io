@@ -49,4 +49,3 @@ sequenceDiagram
   Django-->>フロントエンド: {"user_birthday": "1993年12月15日"}
   Note over フロントエンド: ユーザ画面に表示
 ````
-
