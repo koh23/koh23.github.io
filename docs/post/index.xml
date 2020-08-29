@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | こうの日記</title>
+    <link>https://koh23.github.io/post/</link>
+      <atom:link href="https://koh23.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>© koh {2020}</copyright><lastBuildDate>Wed, 26 Aug 2020 23:51:50 +0900</lastBuildDate>
+    <image>
+      <url>https://koh23.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>https://koh23.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Webアプリのサーバサイドにおけるデータの流れを図にして解説</title>
+      <link>https://koh23.github.io/post/flutter_app_server_archi/</link>
+      <pubDate>Wed, 26 Aug 2020 23:51:50 +0900</pubDate>
+      <guid>https://koh23.github.io/post/flutter_app_server_archi/</guid>
+      <description>&lt;p&gt;プログラミングをしていてシステムがどのようにデータをやり取りしているかわからない人のために、図解しました。
+下図では、Webページやスマホアプリ(例えばVue.jsやFlutterなど)から、PythonのWebアプリケーションフレームワークDjangoを通じてデータベースPostgreSQLにアクセスしデータを取得する方法を説明している。
+本当はリクエストをするときにユーザの認証などもする必要があるが、ここでは説明のために省いている。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;sequenceDiagram
+  autonumber
+  Note left of フロントエンド: ユーザの誕生日を知りたい
+  Note over フロントエンド: https://webapp.com/get_birthdayにPOST
+  Note right of フロントエンド: JSONでデータを送る
+  フロントエンド-&amp;gt;&amp;gt;Django: {&amp;quot;user_id&amp;quot;: 123 }
+  Note over Django: DjangoのModelを操作
+  Note over Django: user_info = UserInfo.objects.filter(user_id=123)
+  Note over Django: DjangoがSQL文を発行
+  Django-&amp;gt;&amp;gt;PostgreSQL: select birthday from user_table where user_id = 123;
+  Note over PostgreSQL: SQLを実行
+  PostgreSQL--&amp;gt;&amp;gt;Django: 1993年12月15日
+  Note over Django: user_info.birthday
+  Django--&amp;gt;&amp;gt;フロントエンド: {&amp;quot;user_birthday&amp;quot;: &amp;quot;1993年12月15日&amp;quot;}
+  Note over フロントエンド: ユーザ画面に表示
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
