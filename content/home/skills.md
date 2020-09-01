@@ -18,13 +18,19 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "機械学習/自然言語処理/高速化/Django"
+  description = "機械学習/自然言語処理/高速化/Djangoなど。もちろん3系がいい！個人的に好きなライブラリはtqdm"
 
 [[feature]]
   icon = "terminal"
   icon_pack = "fas"
   name = "シェル芸(Bash)"
-  description = "シェル芸人です。ワンライナーでデータの前処理をやっちゃうのが好き"
+  description = "シェル芸人です。ワンライナーでデータの前処理をやっちゃうのが好き。好きなLinuxコマンドはxargsとgrep。もちろんrgコマンドやfdコマンドも好き。"
+
+[[feature]]
+  icon = "vuejs"
+  icon_pack = "fab"
+  name = "Vue.js"
+  description = "フロントエンドは成果物が視覚的にわかりやすいから楽しい"
   
 [[feature]]
   icon = "carrot"
