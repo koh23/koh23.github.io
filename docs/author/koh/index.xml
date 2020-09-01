@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>koh | こうの日記</title>
+    <title>koh | こうのホワイトボード</title>
     <link>/author/koh/</link>
       <atom:link href="/author/koh/index.xml" rel="self" type="application/rss+xml" />
     <description>koh</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>© koh {2020}</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>© koh whiteboard {2020}</copyright>
     <image>
-      <url>/images/icon_hu3723f074a5d3a48520d8f17b3fd69179_37029_512x512_fill_lanczos_center_2.png</url>
+      <url>/author/koh/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg</url>
       <title>koh</title>
       <link>/author/koh/</link>
     </image>

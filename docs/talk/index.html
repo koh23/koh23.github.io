@@ -227,6 +227,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=%20%27UA-177003223-1%27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', ' \x27UA-177003223-1\x27', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -234,7 +272,7 @@
   
 
   
-  <link rel="alternate" href="/talk/index.xml" type="application/rss+xml" title="こうの日記">
+  <link rel="alternate" href="/talk/index.xml" type="application/rss+xml" title="こうのホワイトボード">
   
 
   <link rel="manifest" href="/index.webmanifest">
@@ -259,9 +297,9 @@
   <meta property="twitter:site" content="@koh201">
   <meta property="twitter:creator" content="@koh201">
   
-  <meta property="og:site_name" content="こうの日記">
+  <meta property="og:site_name" content="こうのホワイトボード">
   <meta property="og:url" content="/talk/">
-  <meta property="og:title" content="Recent &amp; Upcoming Talks | こうの日記">
+  <meta property="og:title" content="Recent &amp; Upcoming Talks | こうのホワイトボード">
   <meta property="og:description" content="ブログ支配人"><meta property="og:image" content="/images/icon_hu3723f074a5d3a48520d8f17b3fd69179_37029_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu3723f074a5d3a48520d8f17b3fd69179_37029_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja">
   
@@ -282,7 +320,7 @@
 
 
 
-  <title>Recent &amp; Upcoming Talks | こうの日記</title>
+  <title>Recent &amp; Upcoming Talks | こうのホワイトボード</title>
 
 </head>
 
@@ -348,7 +386,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">こうの日記</a>
+      <a class="navbar-brand" href="/">こうのホワイトボード</a>
     </div>
     
 
@@ -361,7 +399,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">こうの日記</a>
+      <a class="navbar-brand" href="/">こうのホワイトボード</a>
     </div>
     
 
@@ -627,7 +665,7 @@
   
 
   <p class="powered-by">
-    © koh {2020}
+    © koh whiteboard {2020}
   </p>
 
   
