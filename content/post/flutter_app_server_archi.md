@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Webアプリのサーバサイドにおけるデータの流れを図にして解説"
+title: "Webアプリのサーバサイドにおけるデータの流れ"
 subtitle: "初心者向けにデータの流れとシステム構成を書いてみた"
 summary: ""
 authors: []
-tags: []
+tags: ["Django", "初心者"]
 categories: []
 date: 2020-08-26T23:51:50+09:00
 lastmod: 2020-08-26T23:51:50+09:00
