@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>初心者 | こうのホワイトボード</title>
-    <link>/tag/%E5%88%9D%E5%BF%83%E8%80%85/</link>
-      <atom:link href="/tag/%E5%88%9D%E5%BF%83%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://koh23.github.io/tag/%E5%88%9D%E5%BF%83%E8%80%85/</link>
+      <atom:link href="https://koh23.github.io/tag/%E5%88%9D%E5%BF%83%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
     <description>初心者</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>© koh whiteboard {2020}</copyright><lastBuildDate>Wed, 26 Aug 2020 23:51:50 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu3723f074a5d3a48520d8f17b3fd69179_37029_512x512_fill_lanczos_center_2.png</url>
+      <url>https://koh23.github.io/images/icon_hu3723f074a5d3a48520d8f17b3fd69179_37029_512x512_fill_lanczos_center_2.png</url>
       <title>初心者</title>
-      <link>/tag/%E5%88%9D%E5%BF%83%E8%80%85/</link>
+      <link>https://koh23.github.io/tag/%E5%88%9D%E5%BF%83%E8%80%85/</link>
     </image>
     
     <item>
       <title>Webアプリのサーバサイドにおけるデータの流れ</title>
-      <link>/post/django_server_side_archi/</link>
+      <link>https://koh23.github.io/post/django_server_side_archi/</link>
       <pubDate>Wed, 26 Aug 2020 23:51:50 +0900</pubDate>
-      <guid>/post/django_server_side_archi/</guid>
+      <guid>https://koh23.github.io/post/django_server_side_archi/</guid>
       <description>&lt;p&gt;プログラミングをしていてシステムがどのようにデータをやり取りしているかわからない人のために、図解しました。
 下図では、Webページやスマホアプリ(例えばVue.jsやFlutterなど)から、PythonのWebアプリケーションフレームワークDjangoを通じてデータベースPostgreSQLにアクセスしデータを取得する方法を説明している。
 本当はリクエストをするときにユーザの認証などもする必要があるが、ここでは説明のために省いている。&lt;/p&gt;
